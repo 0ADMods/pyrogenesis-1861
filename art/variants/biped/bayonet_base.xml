@@ -1,0 +1,16 @@
+<variant name="Base" frequency="1">
+
+  <animations>
+
+    <animation file="biped/new/bayonet_idle_1.dae" name="Idle" speed="50"/>
+
+    <animation file="biped/new/bayonet_run_1.dae" name="Walk" speed="25"/>
+
+    <animation file="biped/new/bayonet_run_1.dae" name="run" speed="30"/>
+
+	<animation file="biped/new/promotion.dae" name="promotion" speed="80"/>
+
+    <animation event="0.5" file="biped/new/pike_attack_a.dae" name="attack_melee" id="attack1" speed="10"/>
+
+  </animations>
+</variant>

@@ -1,0 +1,8 @@
+{
+	"name": "civil-war",
+	"version": "1.0.0",
+	"label": "0 A.D. Civil War",
+	"url": "",
+	"description": "Get new experiences with Expansion Pack mod. Counter System. New Balance. New Technology Trees. New Bonus. New Auras. New Units. New Buildings and much more.",
+	"dependencies": ["0ad>=0.0.23"]
+}

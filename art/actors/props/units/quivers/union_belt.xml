@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="ruck">
+      <mesh>props/quivers/beltaccesories_union_infantry.dae</mesh>
+      <textures>
+        <texture file="skeletal/USA_uniform_infantry_pc.png" name="normTex"/>
+        <texture file="skeletal/USA_uniform_infantry_pc.png" name="baseTex"/>
+        <texture file="skeletal/USA_uniform_infantry_pc.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>71.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>60</MaxRange>
+      <Spread>5.0</Spread>
+      <PrepareTime>640</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <ProjectileSpeed>350.0</ProjectileSpeed>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Projectile>
+        <ImpactActorName>props/units/weapons/slingrock.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+      </Projectile>
+      <Splash>
+        <Shape>Linear</Shape>
+        <Range>5</Range>
+        <FriendlyFire>true</FriendlyFire>
+        <Hack>0.0</Hack>
+        <Pierce>20.0</Pierce>
+        <Crush>0.0</Crush>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>USA</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Union Infantry</GenericName>
+    <SpecificName>Union Infantry</SpecificName>
+    <Icon>units/sele_champion_pikeman.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.7</WalkSpeed>
+    <Run>
+      <Speed op="mul">0.7</Speed>
+    </Run>
+  </UnitMotion>
+  <Decay>
+    <Active>false</Active>
+    <SinkingAnim>false</SinkingAnim>
+    <DelayTime>30.0</DelayTime>
+    <SinkRate>0.01</SinkRate>
+    <SinkAccel>0.0</SinkAccel>
+  </Decay>
+  <VisualActor>
+    <Actor>units/global/union_infantry_private_ranged.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>
