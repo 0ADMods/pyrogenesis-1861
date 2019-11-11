@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="structural/hre_decal_ivy.png" name="baseTex"/>
+        <texture file="structural/hre_decal_ivy.png" name="normTex"/>
+        <texture file="structural/hre_decal_ivy.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/union_barn_1_decal.dae</mesh>
+    </variant>
+    <variant frequency="1" name="2">
+      <mesh>structural/union_barn_2_decal.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

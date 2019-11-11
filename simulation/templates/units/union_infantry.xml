@@ -7,17 +7,19 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>0.0</Hack>
-      <Pierce>65.0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>65.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>4</MaxRange>
       <PrepareTime>0</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <Bonuses>
-          <BonusCavMelee>
-            <Classes>Cavalry</Classes>
-            <Multiplier>3.0</Multiplier>
-          </BonusCavMelee>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusCavMelee>
       </Bonuses>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
@@ -39,11 +41,8 @@
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.6</WalkSpeed>
-    <Run>
-      <Speed op="mul">1.6</Speed>
-    </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/global/union_infantry_private.xml</Actor>
+    <Actor>units/union/infantry_private.xml</Actor>
   </VisualActor>
 </Entity>

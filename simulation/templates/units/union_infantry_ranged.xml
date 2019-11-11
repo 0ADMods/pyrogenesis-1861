@@ -7,16 +7,18 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Hack>0.0</Hack>
-      <Pierce>71.0</Pierce>
-      <Crush>0.0</Crush>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>71.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
       <MaxRange>60</MaxRange>
-      <Spread>5.0</Spread>
       <PrepareTime>640</PrepareTime>
       <RepeatTime>4000</RepeatTime>
-      <ProjectileSpeed>350.0</ProjectileSpeed>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <Projectile>
+        <Speed>350.0</Speed>
+        <Spread>5.0</Spread>
         <ImpactActorName>props/units/weapons/slingrock.xml</ImpactActorName>
         <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
       </Projectile>
@@ -24,9 +26,11 @@
         <Shape>Linear</Shape>
         <Range>5</Range>
         <FriendlyFire>true</FriendlyFire>
-        <Hack>0.0</Hack>
-        <Pierce>20.0</Pierce>
-        <Crush>0.0</Crush>
+        <Damage>
+          <Hack>0.0</Hack>
+          <Pierce>20.0</Pierce>
+          <Crush>0.0</Crush>
+        </Damage>
       </Splash>
     </Ranged>
   </Attack>
@@ -45,12 +49,6 @@
     <SpecificName>Union Infantry</SpecificName>
     <Icon>units/sele_champion_pikeman.png</Icon>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed op="mul">0.7</WalkSpeed>
-    <Run>
-      <Speed op="mul">0.7</Speed>
-    </Run>
-  </UnitMotion>
   <Decay>
     <Active>false</Active>
     <SinkingAnim>false</SinkingAnim>
@@ -58,8 +56,11 @@
     <SinkRate>0.01</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
-    <Actor>units/global/union_infantry_private_ranged.xml</Actor>
+    <Actor>units/union/infantry_private_ranged.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>
