@@ -47,7 +47,7 @@
     <Lang>greek</Lang>
     <GenericName>Union Infantry</GenericName>
     <SpecificName>Union Infantry</SpecificName>
-    <Icon>units/sele_champion_pikeman.png</Icon>
+    <Icon>units/union/infantry_rifleman_ranged_b.png</Icon>
   </Identity>
   <Decay>
     <Active>false</Active>

@@ -37,7 +37,7 @@
     <Lang>greek</Lang>
     <GenericName>Union Bayonet Infantry</GenericName>
     <SpecificName>Union Bayonet Infantry</SpecificName>
-    <Icon>units/sele_champion_pikeman.png</Icon>
+    <Icon>units/union/infantry_rifleman_melee_b.png</Icon>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.6</WalkSpeed>

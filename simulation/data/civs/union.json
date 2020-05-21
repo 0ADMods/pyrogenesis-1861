@@ -1,0 +1,41 @@
+{
+    "AINames": [
+        "Ulysses S. Grant",
+        "George Mcclellan",
+        "William Tecumseh Sherman",
+        "George Custer",
+        "Robert Anderson",
+        "Nathaniel Banks"
+    ],
+    "Code": "union",
+    "Culture": "american",
+    "Emblem": "session/portraits/emblems/union.png",
+    "Factions": [],
+    "CivBonuses": [],
+    "History": "",
+    "Music": [],
+    "Name": "Union",
+    "Formations": [
+        "special/formations/null",
+        "special/formations/box",
+        "special/formations/column_closed",
+        "special/formations/line_closed",
+        "special/formations/column_open",
+        "special/formations/line_open",
+        "special/formations/flank",
+        "special/formations/battle_line",
+        "special/formations/skirmish",
+        "special/formations/wedge"
+    ],
+    "SelectableInGameSetup": true,
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_rifleman_ranged_b",
+        "skirmish/units/default_support_female_citizen": "units/{civ}_infantry_rifleman_melee_b",
+        "skirmish/units/default_cavalry": "units/{civ}_infantry_rifleman_ranged_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}_infantry_rifleman_melee_b",
+        "skirmish/structures/default_civil_centre": "structures/{civ}_civic_center"
+    },
+    "StartEntities": [],
+    "Structures": [],
+    "TeamBonuses": []
+}
