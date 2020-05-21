@@ -16,7 +16,7 @@
 		<Water>
 			<WaterBody>
 				<Type>clap</Type>
-				<Color r="0.141176" g="0.34902" b="0.141176"/>
+				<Color r="0.137255" g="0.34902" b="0.137255"/>
 				<Tint r="0.27451" g="0.294118" b="0.584314"/>
 				<Height>177.809</Height>
 				<Waviness>4</Waviness>
@@ -33,51 +33,57 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="430.786" y="421.622" z="121.941"/>
-		<Rotation angle="0.299717"/>
-		<Declination angle="0.626332"/>
+		<Position x="576.384" y="213.235" z="489.989"/>
+		<Rotation angle="0.0693967"/>
+		<Declination angle="0.561209"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
-  "CircularMap": true,
-  "Description": "Give an interesting description of your map.",
-  "Name": "Unnamed map",
+  "Name": "Sandbox - Union",
+  "Description": "Play with the American Union in a non-threatening sandbox setting.",
   "PlayerData": [
+    null,
     {
-      "Civ": "athen"
-    },
-    {
-      "Civ": "cart"
-    },
-    {
-      "Civ": "gaul"
-    },
-    {
-      "Civ": "iber"
-    },
-    {
-      "Civ": "mace"
-    },
-    {
-      "Civ": "pers"
-    },
-    {
-      "Civ": "rome"
-    },
-    {
-      "Civ": "spart"
+      "AI": "",
+      "Civ": "union",
+      "Color": {
+        "b": 200,
+        "g": 46,
+        "r": 46
+      },
+      "Name": "Player 1",
+      "Resources": {
+        "food": 20000,
+        "metal": 20000,
+        "stone": 20000,
+        "wood": 20000
+      },
+      "StartingCamera": {
+        "Position": {
+          "x": 545.093,
+          "y": 22.3825,
+          "z": 454.219
+        },
+        "Rotation": {
+          "x": 35,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "Team": 0
     }
   ],
-  "VictoryConditions": [
-    "conquest"
-  ]
+  "CircularMap": true,
+  "Keywords": [
+    "demo"
+  ],
+  "VictoryConditions": []
 }
 ]]></ScriptSettings>
 	<Entities>
 		<Entity uid="11">
 			<Template>structures/union_civic_center</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="469.29242" z="487.74042"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58348"/>
@@ -95,112 +101,112 @@
 			<Actor seed="20234"/>
 		</Entity>
 		<Entity uid="19">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="484.48014" z="461.25178"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48682"/>
 		</Entity>
 		<Entity uid="20">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="486.04719" z="462.59061"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62800"/>
 		</Entity>
 		<Entity uid="21">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="487.46119" z="464.24744"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39666"/>
 		</Entity>
 		<Entity uid="22">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="488.89798" z="465.47504"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27704"/>
 		</Entity>
 		<Entity uid="23">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="490.66651" z="467.21326"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18370"/>
 		</Entity>
 		<Entity uid="24">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="486.28324" z="459.45984"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34160"/>
 		</Entity>
 		<Entity uid="25">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="487.60828" z="460.98508"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41056"/>
 		</Entity>
 		<Entity uid="26">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="489.28888" z="462.42096"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34044"/>
 		</Entity>
 		<Entity uid="27">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="490.31016" z="463.693"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41672"/>
 		</Entity>
 		<Entity uid="28">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="492.05182" z="465.38321"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8924"/>
 		</Entity>
 		<Entity uid="29">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="488.68564" z="457.56809"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57630"/>
 		</Entity>
 		<Entity uid="30">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="490.06028" z="458.57831"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2618"/>
 		</Entity>
 		<Entity uid="31">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="491.34137" z="459.82602"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34088"/>
 		</Entity>
 		<Entity uid="32">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="492.19065" z="461.54984"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19448"/>
 		</Entity>
 		<Entity uid="33">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="494.3581" z="462.91453"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33186"/>
 		</Entity>
 		<Entity uid="35">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="493.91565" z="455.84992"/>
 			<Orientation y="-0.82674"/>
@@ -209,7 +215,6 @@
 		<Entity uid="36">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="457.82413" z="461.66697"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36676"/>
@@ -217,7 +222,6 @@
 		<Entity uid="37">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="369.61805" z="499.9181"/>
 			<Orientation y="4.48607"/>
 			<Actor seed="1472"/>
@@ -225,7 +229,6 @@
 		<Entity uid="38">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="467.44037" z="421.12015"/>
 			<Orientation y="-1.32461"/>
 			<Actor seed="7398"/>
@@ -233,7 +236,6 @@
 		<Entity uid="39">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="442.8794" z="440.75596"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4358"/>
@@ -241,7 +243,6 @@
 		<Entity uid="40">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="522.54584" z="476.31104"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3034"/>
@@ -249,7 +250,6 @@
 		<Entity uid="41">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="496.02497" z="496.95185"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35368"/>
@@ -257,7 +257,6 @@
 		<Entity uid="42">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="509.3931" z="509.05073"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26042"/>
@@ -265,7 +264,6 @@
 		<Entity uid="43">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="432.10798" z="424.59821"/>
 			<Orientation y="1.91924"/>
 			<Actor seed="26348"/>
@@ -273,7 +271,6 @@
 		<Entity uid="45">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="425.8235" z="388.3173"/>
 			<Orientation y="1.62087"/>
 			<Actor seed="51586"/>
@@ -281,7 +278,6 @@
 		<Entity uid="46">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="463.51063" z="397.6259"/>
 			<Orientation y="-1.30576"/>
 			<Actor seed="4876"/>
@@ -289,7 +285,6 @@
 		<Entity uid="47">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="456.84333" z="379.32557"/>
 			<Orientation y="-3.00852"/>
 			<Actor seed="38752"/>
@@ -297,7 +292,6 @@
 		<Entity uid="48">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="402.40406" z="400.38132"/>
 			<Orientation y="0.73232"/>
 			<Actor seed="26348"/>
@@ -305,7 +299,6 @@
 		<Entity uid="49">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="411.33204" z="429.83707"/>
 			<Orientation y="3.72353"/>
 			<Actor seed="26348"/>
@@ -313,7 +306,6 @@
 		<Entity uid="50">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="383.46268" z="414.63666"/>
 			<Orientation y="0.83758"/>
 			<Actor seed="26348"/>
@@ -321,7 +313,6 @@
 		<Entity uid="51">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="396.55674" z="439.09809"/>
 			<Orientation y="0.71566"/>
 			<Actor seed="26348"/>
@@ -1259,7 +1250,6 @@
 		<Entity uid="209">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="371.30933" z="525.8235"/>
 			<Orientation y="1.36425"/>
 			<Actor seed="26042"/>
@@ -1267,7 +1257,6 @@
 		<Entity uid="210">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="449.00599" z="537.1714"/>
 			<Orientation y="0.0008"/>
 			<Actor seed="32616"/>
@@ -1275,7 +1264,6 @@
 		<Entity uid="211">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="392.77326" z="527.4289"/>
 			<Orientation y="1.49468"/>
 			<Actor seed="35978"/>
@@ -1283,7 +1271,6 @@
 		<Entity uid="212">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="412.35157" z="525.71546"/>
 			<Orientation y="1.54525"/>
 			<Actor seed="1192"/>
@@ -1291,7 +1278,6 @@
 		<Entity uid="213">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="471.86912" z="534.78406"/>
 			<Orientation y="1.57305"/>
 			<Actor seed="24606"/>
@@ -1299,7 +1285,6 @@
 		<Entity uid="214">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="497.81174" z="524.42432"/>
 			<Orientation y="2.4994"/>
 			<Actor seed="39724"/>
@@ -1307,7 +1292,6 @@
 		<Entity uid="215">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="526.45508" z="546.22345"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46872"/>
@@ -1315,7 +1299,6 @@
 		<Entity uid="217">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="431.4712" z="530.45417"/>
 			<Orientation y="-0.30976"/>
 			<Actor seed="26348"/>
@@ -1687,112 +1670,112 @@
 			<Actor seed="45744"/>
 		</Entity>
 		<Entity uid="280">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="446.55051" z="408.52808"/>
 			<Orientation y="-2.78722"/>
 			<Actor seed="34160"/>
 		</Entity>
 		<Entity uid="281">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="448.48987" z="407.9615"/>
 			<Orientation y="-2.78722"/>
 			<Actor seed="41056"/>
 		</Entity>
 		<Entity uid="282">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="445.83555" z="405.555"/>
 			<Orientation y="-2.78722"/>
 			<Actor seed="57630"/>
 		</Entity>
 		<Entity uid="283">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="447.32773" z="404.72818"/>
 			<Orientation y="-2.78722"/>
 			<Actor seed="2618"/>
 		</Entity>
 		<Entity uid="284">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="367.95463" z="455.60798"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="34160"/>
 		</Entity>
 		<Entity uid="285">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="369.27967" z="457.13321"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="41056"/>
 		</Entity>
 		<Entity uid="286">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="370.35703" z="453.71622"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57630"/>
 		</Entity>
 		<Entity uid="287">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="371.73166" z="454.72645"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="2618"/>
 		</Entity>
 		<Entity uid="288">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="538.83472" z="517.32465"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="34160"/>
 		</Entity>
 		<Entity uid="289">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="540.1598" z="518.84986"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="41056"/>
 		</Entity>
 		<Entity uid="290">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="541.23713" z="515.43287"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="57630"/>
 		</Entity>
 		<Entity uid="291">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="542.61176" z="516.44312"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="2618"/>
 		</Entity>
 		<Entity uid="292">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="509.1467" z="344.62897"/>
 			<Orientation y="3.10499"/>
 			<Actor seed="34160"/>
 		</Entity>
 		<Entity uid="293">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="511.15564" z="344.84424"/>
 			<Orientation y="3.10499"/>
 			<Actor seed="41056"/>
 		</Entity>
 		<Entity uid="294">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="509.61878" z="341.6078"/>
 			<Orientation y="3.10499"/>
 			<Actor seed="57630"/>
 		</Entity>
 		<Entity uid="295">
-			<Template>units/union_infantry_ranged</Template>
+			<Template>units/union_infantry_rifleman_ranged_b</Template>
 			<Player>0</Player>
 			<Position x="511.31345" z="341.41205"/>
 			<Orientation y="3.10499"/>
@@ -3024,14 +3007,14 @@
 		<Entity uid="503">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="565.25953" z="546.25574"/>
+			<Position x="574.78925" z="577.45081"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35062"/>
 		</Entity>
 		<Entity uid="504">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="561.9068" z="545.78364"/>
+			<Position x="552.93287" z="564.41633"/>
 			<Orientation y="-1.57943"/>
 			<Actor seed="52246"/>
 		</Entity>
@@ -3108,14 +3091,14 @@
 		<Entity uid="515">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="577.9383" z="548.90998"/>
+			<Position x="578.86591" z="566.73823"/>
 			<Orientation y="-1.21352"/>
 			<Actor seed="8956"/>
 		</Entity>
 		<Entity uid="516">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="572.9917" z="551.76233"/>
+			<Position x="582.91956" z="572.19416"/>
 			<Orientation y="-0.37208"/>
 			<Actor seed="55334"/>
 		</Entity>
@@ -3206,14 +3189,14 @@
 		<Entity uid="529">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="574.83875" z="547.60462"/>
+			<Position x="589.3979" z="574.3755"/>
 			<Orientation y="-2.10433"/>
 			<Actor seed="64090"/>
 		</Entity>
 		<Entity uid="530">
 			<Template>gaia/flora_tree_fir</Template>
 			<Player>0</Player>
-			<Position x="558.3531" z="538.58228"/>
+			<Position x="552.5594" z="539.99543"/>
 			<Orientation y="-2.33088"/>
 			<Actor seed="15854"/>
 		</Entity>
@@ -3994,7 +3977,6 @@
 		<Entity uid="644">
 			<Template>structures/union_blockhouse</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="315.15928" z="525.84424"/>
 			<Orientation y="-1.63091"/>
 			<Actor seed="13740"/>
@@ -4002,7 +3984,6 @@
 		<Entity uid="645">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="338.01041" z="491.24564"/>
 			<Orientation y="1.17763"/>
 			<Actor seed="3946"/>
@@ -4408,7 +4389,6 @@
 		<Entity uid="703">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="530.89454" z="442.0976"/>
 			<Orientation y="-0.85502"/>
 			<Actor seed="13418"/>
@@ -4416,7 +4396,6 @@
 		<Entity uid="704">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="587.23267" z="440.4738"/>
 			<Orientation y="3.08458"/>
 			<Actor seed="8518"/>
@@ -4424,7 +4403,6 @@
 		<Entity uid="705">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="571.4159" z="410.19928"/>
 			<Orientation y="1.64678"/>
 			<Actor seed="48532"/>
@@ -8596,7 +8574,6 @@
 		<Entity uid="1303">
 			<Template>structures/union_house</Template>
 			<Player>0</Player>
-			<Garrison/>
 			<Position x="344.485" z="544.81757"/>
 			<Orientation y="2.80993"/>
 			<Actor seed="1472"/>
@@ -10380,6 +10357,13 @@
 			<Position x="698.22834" z="571.29175"/>
 			<Orientation y="-6.29204"/>
 			<Actor seed="36822"/>
+		</Entity>
+		<Entity uid="1614">
+			<Template>structures/union_arsenal</Template>
+			<Player>0</Player>
+			<Position x="569.8957" z="542.41938"/>
+			<Orientation y="2.71154"/>
+			<Actor seed="54102"/>
 		</Entity>
 	</Entities>
 	<Paths/>
