@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/union_arsenal.dae</mesh>
+      <props>
+        <prop actor="particle/smoke_light.xml" attachpoint="smoke_01"/>
+      </props>
+      <textures>
+        <texture file="structural/union_struct.png" name="baseTex"/>
+        <texture file="structural/union_struct_norm.png" name="normTex"/>
+        <texture file="structural/ao/union_arsenal.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="particle/smoke_light.xml" attachpoint="smoke_02"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax.xml</material>
+</actor>

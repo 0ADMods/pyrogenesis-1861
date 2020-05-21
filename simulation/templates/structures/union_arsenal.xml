@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_workshop">
+  <Identity>
+    <Civ>union</Civ>
+    <SpecificName>Arsenal</SpecificName>
+  </Identity>
+  <Footprint>
+    <Square width="25.0" depth="18.0"/>
+    <Height>28.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="24.0" depth="17.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+      siege_bolt_accuracy
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/union/arsenal.xml</Actor>
+  </VisualActor>
+</Entity>
