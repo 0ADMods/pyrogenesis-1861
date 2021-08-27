@@ -29,11 +29,11 @@
     ],
     "SelectableInGameSetup": true,
     "SkirmishReplacements": {
-        "skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_rifleman_ranged_b",
-        "skirmish/units/default_support_female_citizen": "units/{civ}_infantry_rifleman_melee_b",
-        "skirmish/units/default_cavalry": "units/{civ}_infantry_rifleman_ranged_b",
-        "skirmish/units/default_infantry_melee_b": "units/{civ}_infantry_rifleman_melee_b",
-        "skirmish/structures/default_civil_centre": "structures/{civ}_civic_center"
+        "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_support_female_citizen": "units/{civ}/infantry_rifleman_melee_b",
+        "skirmish/units/default_cavalry": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_melee_b",
+        "skirmish/structures/default_civil_centre": "structures/{civ}/civic_center"
     },
     "StartEntities": [],
     "Structures": [],

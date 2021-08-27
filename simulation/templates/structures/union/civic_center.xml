@@ -6,8 +6,8 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_rifleman_melee_b
-      units/{civ}_infantry_rifleman_ranged_b
+      units/{civ}/infantry_rifleman_melee_b
+      units/{civ}/infantry_rifleman_ranged_b
     </Entities>
   </ProductionQueue>
   <VisualActor>
