@@ -4,5 +4,5 @@
 	"label": "Pyrogenesis 1861",
 	"url": "https://github.com/0ADMods/pyrogenesis-1861",
 	"description": "This mods tries to depict the american civil war in RTS fashion.",
-	"dependencies": ["0ad=0.0.24"]
+	"dependencies": ["0ad=0.0.25"]
 }
