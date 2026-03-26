@@ -17,6 +17,7 @@
         <texture file="skeletal/USA_uniform_infantry_pc.png" name="normTex"/>
         <texture file="skeletal/USA_uniform_infantry_pc.png" name="baseTex"/>
         <texture file="skeletal/USA_uniform_infantry_pc.png" name="specTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -44,5 +45,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>
