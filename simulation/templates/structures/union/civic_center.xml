@@ -4,12 +4,12 @@
     <Civ>union</Civ>
     <SpecificName>Town Hall</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_rifleman_melee_b
       units/{civ}/infantry_rifleman_ranged_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/union/civic_center.xml</Actor>
   </VisualActor>
